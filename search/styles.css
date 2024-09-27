@@ -67,7 +67,7 @@ input[type="submit"],
 input[type="button"],
 button {
   box-sizing: border-box;
-  padding: 0.5rem 1rem;
+  padding: 0rem 1rem;
   border: 0.2rem solid var(--primary-800);
   transition: all 0.2s;
   background: var(--primary-600);
