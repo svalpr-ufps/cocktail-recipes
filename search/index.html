@@ -6,33 +6,41 @@
     <title>Search Cocktail</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="min-h-screen grid grid-rows-auto-1fr">
+  <body class="min-h-screen grid grid-rows-auto-1fr bg-shade-100">
+    <!-- Formulario de búsqueda -->
     <form
-      class="m-2 flex flex-wrap sm-flex-col lg-flex-row gap-2 items-center justify-center"
+      class="m-2 p-1 flex flex-wrap sm-flex-col lg-flex-row gap-2 items-center justify-center bg-shade-300 rounded"
     >
       <div class="flex gap-1 items-center">
-        <label for="ingredient">Ingredient</label>
-        <select name="ingredient" id="ingredient">
+        <label for="ingredient" class="text-primary-800">Main Ingredient</label>
+        <select name="ingredient" id="ingredient" class="bg-shade-200 border-primary-400">
           <option value="null" selected>None</option>
+          <option value="whiskey">Whiskey</option>
+          <option value="rum">Rum</option>
+          <option value="gin">Gin</option>
         </select>
       </div>
 
       <div class="flex gap-1 items-center">
-        <label for="alcohol">Type</label>
-        <select name="alcohol" id="alcohol">
+        <label for="alcohol" class="text-primary-800">Alcohol Type</label>
+        <select name="alcohol" id="alcohol" class="bg-shade-200 border-primary-400">
           <option value="null" selected>None</option>
+          <option value="alcoholic">Alcoholic</option>
+          <option value="non-alcoholic">Non-Alcoholic</option>
         </select>
       </div>
 
       <div class="flex gap-1 items-center">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" />
+        <label for="name" class="text-primary-800">Cocktail Name</label>
+        <input type="text" name="name" id="name" class="bg-shade-200 border-primary-400" />
       </div>
 
-      <input class="pointer" type="submit" value="Search" />
+      <input class="pointer text-shade-50 bg-primary-600 hover-scale" type="submit" value="Search" />
     </form>
-    <div id="results" class="flex flex-wrap items-center justify-center gap-1">
-      <img src="./cocktail.jpeg" class="max-w-10" />
+
+    <!-- Resultados -->
+    <div id="results" class="flex flex-wrap items-center justify-center gap-1 p-1">
+      <img src="./cocktail.jpeg" class="max-w-10 rounded" alt="Cocktail Image" />
     </div>
 
     <script src="scripts.js"></script>
