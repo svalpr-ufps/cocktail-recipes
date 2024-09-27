@@ -1,7 +1,11 @@
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Trattatello&display=swap');
+
 body {
-    background-color: hsl(267, 61%, 93%);
-    color: #7937eb;
-    font-family: Arial, sans-serif;
+    background-color: hsl(35, 61%, 93%); /* Cambiado a un tono cálido */
+    color: #c75b25; /* Color de texto cálido */
+    font-family: 'Trattatello', sans-serif; /* Aplicando la fuente Trattatello */
     margin: 0;
     padding: 0;
 }
@@ -10,7 +14,7 @@ body {
     display: block;
     top: 10px;
     left: 10px;
-    background-color: #7937eb;
+    background-color: #c75b25; /* Botón en color cálido */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -28,7 +32,7 @@ body {
 }
 
 .ingredient-card {
-    background-color: #ddd6ff;
+    background-color: #f5c097; /* Fondo de la tarjeta en color cálido */
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     display: flex;
@@ -55,10 +59,12 @@ body {
 
 .ingredient-details h2 {
     margin-top: 0;
+    color: #593b18; /* Color del título en tonos cálidos */
 }
 
 .ingredient-details p {
     margin: 10px 0;
+    color: #7b361a; /* Color del texto en la descripción */
 }
 
 .ingredient-details p strong {
