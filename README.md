@@ -1,3 +1,3 @@
 # cocktail-recipes
- cocktailsn xcrcise
+ cocktails excercise
  i promise i am not an alcoholic
