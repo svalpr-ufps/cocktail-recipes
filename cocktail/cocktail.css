@@ -1,10 +1,10 @@
 /* styles.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trattatello&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: hsl(267, 61%, 93%);;
+    font-family: 'Trattatello', sans-serif; /* Cambiar la fuente a Trattatello */
+    background-color: hsl(35, 61%, 93%);
     margin: 0;
     padding: 0;
     display: flex;
@@ -14,8 +14,7 @@ body {
 }
 
 .container {
-    background-color: #ddd6ff;
-    /* Color morado muy claro */
+    background-color: #f5c097;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -33,17 +32,16 @@ body {
 #back-button {
     display: inline-block;
     margin-bottom: 10px;
-    /* Reduce bottom margin */
     padding: 10px 20px;
-    background-color: #7937eb;
-    color: #ffff;
+    background-color: #c75b25;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s, transform 0.3s;
 }
 
 #back-button:hover {
-    background-color: #7100c2;
+    background-color: #a44a20;
     transform: translateY(-2px);
 }
 
@@ -51,7 +49,7 @@ body {
     font-size: 2.5rem;
     margin-bottom: 20px;
     text-align: center;
-    color: #7800cd;
+    color: #dd7a42;
 }
 
 .cocktail-content {
@@ -86,10 +84,9 @@ body {
 .cocktail-ingredients li {
     display: flex;
     align-items: center;
-    /* Alinear el texto con la imagen */
     margin-bottom: 10px;
     font-size: 1rem;
-    color: #555;
+    color: #7b361a;
 }
 
 .ingredient-image {
@@ -98,15 +95,12 @@ body {
     object-fit: cover;
     border-radius: 5px;
     margin-right: 10px;
-    /* Espacio entre la imagen y el texto */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    /* Cambiar el cursor al pasar sobre la imagen */
 }
 
 .cocktail-info-instructions {
-    background-color: #cdadf9ca;
-    /* Color morado un poco más oscuro */
+    background-color: #ec9a66;
     border-radius: 10px;
     padding: 15px;
     text-align: center;
@@ -117,7 +111,6 @@ body {
 .cocktail-info,
 .cocktail-instructions {
     margin-bottom: 0;
-    /* Eliminar margen inferior */
     width: 100%;
 }
 
@@ -125,21 +118,21 @@ body {
 .cocktail-instructions p {
     margin: 5px 0;
     font-size: 1rem;
-    color: #7600c9;
+    color: #592812;
 }
 
 .cocktail-instructions h3 {
     font-size: 1.5rem;
     margin-top: 20px;
     margin-bottom: 10px;
-    color: #7600c9;
+    color: #592812;
 }
 
 .cocktail-instructions p {
     font-size: 1rem;
     line-height: 1.5;
     margin-top: 20px;
-    color: #555;
+    color: #7b361a;
 }
 
 .cocktail-image,
@@ -156,19 +149,15 @@ body {
 /* Estilos para enlaces de ingredientes */
 .cocktail-ingredients a {
     text-decoration: none;
-    /* Quitar subrayado */
     color: inherit;
-    /* Mantener el color del texto */
 }
 
 .cocktail-ingredients a:visited {
     color: inherit;
-    /* Mantener el color del texto después de ser visitado */
 }
 
 .cocktail-ingredients a:hover {
     color: inherit;
-    /* Mantener el color del texto al pasar el ratón */
 }
 
 /* Media Queries for Responsive Design */
