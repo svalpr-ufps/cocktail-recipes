@@ -2,29 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Trattatello&display=swap');
 
 :root {
-  --shade-50: #f8fafc;
-  --shade-100: #f1f5f9;
-  --shade-200: #e2e8f0;
-  --shade-300: #cbd5e1;
-  --shade-400: #94a3b8;
-  --shade-500: #64748b;
-  --shade-600: #475569;
-  --shade-700: #334155;
-  --shade-800: #1e293b;
-  --shade-900: #0f172a;
-  --shade-950: #020617;
+  --shade-50: #faf3e3;
+  --shade-100: #f1e0c5;
+  --shade-200: #e5cdaa;
+  --shade-300: #d9ba8f;
+  --shade-400: #b58b61;
+  --shade-500: #946b41;
+  --shade-600: #7c5735;
+  --shade-700: #63442a;
+  --shade-800: #4b331f;
+  --shade-900: #332315;
+  --shade-950: #22170d;
 
-  --primary-50: #f5f3ff;
-  --primary-100: #ede9fe;
-  --primary-200: #ddd6fe;
-  --primary-300: #c4b5fd;
-  --primary-400: #a78bfa;
-  --primary-500: #8b5cf6;
-  --primary-600: #7c3aed;
-  --primary-700: #6d28d9;
-  --primary-800: #5b21b6;
-  --primary-900: #4c1d95;
-  --primary-950: #2e1065;
+  --primary-50: #fdf5e6;
+  --primary-100: #f7d9af;
+  --primary-200: #f2c079;
+  --primary-300: #edab57;
+  --primary-400: #e49438;
+  --primary-500: #bb7429;
+  --primary-600: #9c5d1e;
+  --primary-700: #784514;
+  --primary-800: #55300a;
+  --primary-900: #301a04;
+  --primary-950: #180c02;
 }
 
 * {
