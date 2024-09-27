@@ -3,60 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fantasy Tavern - Search Cocktail</title>
+    <title>Search Cocktail</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="min-h-screen grid grid-rows-auto-1fr bg-shade-100">
-    <!-- Formulario de búsqueda -->
+  <body class="min-h-screen grid grid-rows-auto-1fr">
     <form
-      class="m-2 p-1 flex flex-wrap sm-flex-col lg-flex-row gap-2 items-center justify-center bg-shade-300 rounded"
+      class="m-2 flex flex-wrap sm-flex-col lg-flex-row gap-2 items-center justify-center"
     >
       <div class="flex gap-1 items-center">
-        <label for="ingredient" class="text-primary-800">Main Ingredient</label>
-        <select name="ingredient" id="ingredient" class="bg-shade-200 border-primary-400">
+        <label for="ingredient">Ingredient</label>
+        <select name="ingredient" id="ingredient">
           <option value="null" selected>None</option>
-          <option value="whiskey">Whiskey</option>
-          <option value="rum">Rum</option>
-          <option value="gin">Gin</option>
         </select>
       </div>
 
       <div class="flex gap-1 items-center">
-        <label for="alcohol" class="text-primary-800">Alcohol Type</label>
-        <select name="alcohol" id="alcohol" class="bg-shade-200 border-primary-400">
+        <label for="alcohol">Type</label>
+        <select name="alcohol" id="alcohol">
           <option value="null" selected>None</option>
-          <option value="alcoholic">Alcoholic</option>
-          <option value="non-alcoholic">Non-Alcoholic</option>
         </select>
       </div>
 
       <div class="flex gap-1 items-center">
-        <label for="name" class="text-primary-800">Cocktail Name</label>
-        <input type="text" name="name" id="name" class="bg-shade-200 border-primary-400" />
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
       </div>
 
-      <input class="pointer text-shade-50 bg-primary-600 hover-scale" type="submit" value="Search" />
+      <input class="pointer" type="submit" value="Search" />
     </form>
-
-    <!-- Resultados de cócteles -->
-    <div id="results" class="flex flex-wrap items-center justify-center gap-2 p-2">
-      <!-- Ejemplo de tarjeta de cóctel -->
-      <div class="card">
-        <img src="./cocktail.jpeg" class="cocktail-img" alt="Cocktail Image" />
-        <div class="card-content">
-          <h3 class="card-title text-primary-700">Cocktail Name</h3>
-          <p class="card-description text-shade-700">Short description of the cocktail.</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="./cocktail.jpeg" class="cocktail-img" alt="Cocktail Image" />
-        <div class="card-content">
-          <h3 class="card-title text-primary-700">Cocktail Name</h3>
-          <p class="card-description text-shade-700">Short description of the cocktail.</p>
-        </div>
-      </div>
-      <!-- Añade más tarjetas de cócteles aquí -->
+    <div id="results" class="flex flex-wrap items-center justify-center gap-1">
+      <img src="./cocktail.jpeg" class="max-w-10" />
     </div>
 
     <script src="scripts.js"></script>
