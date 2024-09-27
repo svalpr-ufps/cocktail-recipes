@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Cocktail</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="min-h-screen grid grid-rows-auto-1fr">
+    <form
+      class="m-2 flex flex-wrap sm-flex-col lg-flex-row gap-2 items-center justify-center"
+    >
+      <div class="flex gap-1 items-center">
+        <label for="ingredient">Ingredient</label>
+        <select name="ingredient" id="ingredient">
+          <option value="null" selected>None</option>
+        </select>
+      </div>
+
+      <div class="flex gap-1 items-center">
+        <label for="alcohol">Type</label>
+        <select name="alcohol" id="alcohol">
+          <option value="null" selected>None</option>
+        </select>
+      </div>
+
+      <div class="flex gap-1 items-center">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+      </div>
+
+      <input class="pointer" type="submit" value="Search" />
+    </form>
+    <div id="results" class="flex flex-wrap items-center justify-center gap-1">
+      <img src="./cocktail.jpeg" class="max-w-10" />
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

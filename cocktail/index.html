@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocktail Details</title>
+    <link rel="stylesheet" href="cocktail.css" />
+  </head>
+  <body>
+    <div id="cocktail-detail" class="container">
+      <button id="back-button" onclick="goBack()">Back</button>
+      <h1 id="cocktail-title" class="text-3xl font-bold mb-4"></h1>
+      <div id="cocktail-content" class="cocktail-content">
+        <div class="cocktail-main">
+          <img
+            id="cocktail-image"
+            class="cocktail-image"
+            src=""
+            alt="Cocktail Image"
+          />
+          <ul id="cocktail-ingredients" class="cocktail-ingredients"></ul>
+        </div>
+        <div id="cocktail-info-instructions" class="cocktail-info-instructions">
+          <div id="cocktail-info" class="cocktail-info"></div>
+          <div id="cocktail-instructions" class="cocktail-instructions"></div>
+        </div>
+      </div>
+    </div>
+    <script src="cocktail.js"></script>
+  </body>
+</html>
