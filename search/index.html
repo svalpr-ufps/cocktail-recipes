@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search Cocktail</title>
+    <title>Fantasy Tavern - Search Cocktail</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body class="min-h-screen grid grid-rows-auto-1fr bg-shade-100">
@@ -38,9 +38,25 @@
       <input class="pointer text-shade-50 bg-primary-600 hover-scale" type="submit" value="Search" />
     </form>
 
-    <!-- Resultados -->
-    <div id="results" class="flex flex-wrap items-center justify-center gap-1 p-1">
-      <img src="./cocktail.jpeg" class="max-w-10 rounded" alt="Cocktail Image" />
+    <!-- Resultados de cócteles -->
+    <div id="results" class="flex flex-wrap items-center justify-center gap-2 p-2">
+      <!-- Ejemplo de tarjeta de cóctel -->
+      <div class="card">
+        <img src="./cocktail.jpeg" class="cocktail-img" alt="Cocktail Image" />
+        <div class="card-content">
+          <h3 class="card-title text-primary-700">Cocktail Name</h3>
+          <p class="card-description text-shade-700">Short description of the cocktail.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./cocktail.jpeg" class="cocktail-img" alt="Cocktail Image" />
+        <div class="card-content">
+          <h3 class="card-title text-primary-700">Cocktail Name</h3>
+          <p class="card-description text-shade-700">Short description of the cocktail.</p>
+        </div>
+      </div>
+      <!-- Añade más tarjetas de cócteles aquí -->
     </div>
 
     <script src="scripts.js"></script>
